@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathfinding Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Pathfinding Visualizer</h1>
+    
+    <div class="controls">
+        <select id="algorithm">
+            <option value="bfs">Breadth-First Search</option>
+            <option value="dfs">Depth-First Search</option>
+            <option value="dijkstra">Dijkstra's Algorithm</option>
+            <option value="astar">A* Search</option>
+        </select>
+        <button id="visualize">Visualize!</button>
+        <button id="clear-path">Clear Path</button>
+        <button id="clear-walls">Clear Walls</button>
+        <button id="generate-maze">Generate Maze</button>
+    </div>
+
+    <div id="grid"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
